@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Respah Nafula | Training Intern - School Lead Educator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f5f7fb;
+            color: #333;
+            line-height: 1.7;
+        }
+
+        nav {
+            position: fixed;
+            width: 100%;
+            background: white;
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            z-index: 1000;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #1f3c88;
+            margin-left: 20px;
+            font-weight: 500;
+        }
+
+        header {
+            padding-top: 140px;
+            padding-bottom: 80px;
+            text-align: center;
+            background: linear-gradient(to right, #1f3c88, #4a69bd);
+            color: white;
+        }
+
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid white;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+            opacity: 0;
+            animation: fadeSlideUp 1s ease forwards;
+        }
+
+        /* Animated Subtitle */
+        .subtitle {
+          .subtitle {
+    font-size: 18px;
+    max-width: 700px;
+    margin: 20px auto 0 auto;
+    opacity: 0;
+    animation: fadeIn 1.5s ease forwards 0.8s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+        }
+
+        section {
+            padding: 80px 40px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #1f3c88;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+            margin-bottom: 30px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: #1f3c88;
+            color: white;
+        }
+
+        @media(max-width: 768px) {
+            .subtitle {
+                white-space: normal;
+                border-right: none;
+                animation: fadeSlideUp 1.5s ease forwards;
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <strong>Respah Nafula</strong>
+        <div>
+            <a href="#journey">My Journey</a>
+            <a href="#experience">Experience</a>
+            <a href="#vision">Vision</a>
+        </div>
+    </nav>
+
+    <header>
+        <!-- Replace profile.jpg with your actual image -->
+        <img src="respah.png" alt="Respah Nafula Profile Photo">
+        <h1>Training Intern Applicant</h1>
+        <p class="subtitle">
+            Empowering learners through digital literacy, structured leadership, and community-driven impact.
+        </p>
+    </header>
+
+    <section id="journey">
+        <h2>My Journey</h2>
+        <div class="card">
+            <p style="margin-top:15px;">
+                I am a detail-oriented and impact-driven professional with experience in both technology and
+                community-focused initiatives. Over the past two years, I have worked in technology environments
+                ensuring systems function effectively, identifying gaps, documenting processes, and collaborating with
+                teams to improve user experience. This strengthened my analytical thinking, structured problem-solving
+                approach, and ability to communicate clearly across different stakeholders
+            </p>
+
+            <p style="margin-top:15px;">
+                Alongside my technical background, I have worked directly with children through literacy initiatives at
+                Watoto Wasome, where I supported young learners in structured and encouraging environments. Combined
+                with my customer support experience — where I handled user concerns with empathy and professionalism;
+                these experiences have equipped me with the patience, clarity, and leadership mindset needed to
+                contribute meaningfully to digital literacy programs at TechLit Africa.
+            </p>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Experience with Children & Community</h2>
+        <div class="card">
+            <p>
+                At Watoto Wasome, I supported literacy-focused initiatives, engaging with children
+                in structured and encouraging learning environments.
+            </p>
+            <ul style="margin-top:15px;">
+                <li>Guiding and supporting young learners</li>
+                <li>Encouraging participation and confidence</li>
+                <li>Maintaining organized learning activities</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3 style="color:#1f3c88; margin-bottom:10px;">Customer Support Experience</h3>
+            <p>
+                My experience supporting customers in technology environments strengthened my
+                communication, empathy, and problem-solving skills.
+            </p>
+            <ul>
+                <li>Listening actively to user challenges</li>
+                <li>Providing structured, clear guidance</li>
+                <li>Maintaining professionalism and accountability</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="vision">
+        <h2>My Vision</h2>
+        <div class="card">
+            <p>
+                As a future School Lead Educator, I aspire to integrate structure, empathy,
+                and innovation to strengthen digital literacy programs and empower learners
+                in underserved communities.
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Thank you for considering my application.</p>
+        <p>Respah Nafula | 2026</p>
+    </footer>
+
+</body>
+
+</html>
